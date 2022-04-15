@@ -2,4 +2,4 @@
 
 require_once dirname(__DIR__) . '/init.php';
 
-echo "nnn";
+load_template(trim($_SERVER['REQUEST_URI']));

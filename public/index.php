@@ -2,4 +2,6 @@
 
 require_once dirname(__DIR__) . '/init.php';
 
-load_template(substr(trim($_SERVER['REQUEST_URI']),1));
+// var_dump(get_url('about'));
+
+load_template($_SERVER['REQUEST_URI']);
